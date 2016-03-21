@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Content",
+    "value": "hello"
+  },
+  {
+    "type": "Interpolation",
+    "value": "foo"
+  },
+  {
+    "type": "Content",
+    "value": "world\n"
+  }
+]

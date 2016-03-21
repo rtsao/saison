@@ -1,0 +1,24 @@
+{
+  "name": "saison",
+  "version": "0.1.0",
+  "description": "A minimal templating language",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "main": "index.js",
+  "homepage": "https://github.com/rtsao/saison",
+  "repository": "git@github.com:rtsao/saison.git",
+  "bugs": "https://github.com/rtsao/saison/issues",
+  "scripts": {
+    "generate-diagram": "nearley-railroad grammar.ne >| grammar.html",
+    "compile": "nearleyc grammar.ne >| grammar.js",
+    "pretest": "npm run compile",
+    "test": "node test/index.js",
+    "prepublish": "npm run compile"
+  },
+  "dependencies": {
+    "nearley": "^2.4.1"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "license": "MIT"
+}
