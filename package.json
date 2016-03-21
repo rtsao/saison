@@ -1,6 +1,6 @@
 {
   "name": "saison",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal templating language",
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
   "main": "index.js",
