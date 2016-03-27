@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Content",
+    "value": "{{hello world"
+  },
+  {
+    "type": "Interpolation",
+    "value": "asdf"
+  },
+  {
+    "type": "Content",
+    "value": "\n"
+  }
+]

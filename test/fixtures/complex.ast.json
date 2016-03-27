@@ -1,0 +1,34 @@
+[
+  {
+    "type": "Interpolation",
+    "value": "qq"
+  },
+  {
+    "type": "Conditional",
+    "condition": "if",
+    "children": [
+      {
+        "type": "Content",
+        "value": "woot"
+      },
+      {
+        "type": "Conditional",
+        "condition": "if",
+        "children": [
+          {
+            "type": "Interpolation",
+            "value": "wow"
+          }
+        ]
+      },
+      {
+        "type": "Content",
+        "value": "abc"
+      }
+    ]
+  },
+  {
+    "type": "Content",
+    "value": "asdf\n"
+  }
+]

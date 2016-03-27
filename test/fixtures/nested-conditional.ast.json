@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Conditional",
+    "condition": "if",
+    "children": [
+      {
+        "type": "Content",
+        "value": "woot"
+      },
+      {
+        "type": "Conditional",
+        "condition": "if",
+        "children": [
+          {
+            "type": "Content",
+            "value": "yay"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Content",
+    "value": "sauce\n"
+  }
+]
